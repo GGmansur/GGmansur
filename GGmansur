@@ -1,0 +1,52 @@
+   <header class="container header">
+        <nav>
+
+            <div class="row">
+                <div class="col-12 menu_area">
+                    <div class="row">
+
+
+                        <div class="col-9 nav_area">
+
+                            <ul class="nav nav-pills flex-column flex-sm-row " id="menu">
+                                <li class="flex-sm-fill text-sm-center nav-link" href="#"><a href="#">Iníco</a></li>
+                                <li class="flex-sm-fill text-sm-center nav-link" href="#"><a href="#">Sobre nós</a></li>
+                                <li class="flex-sm-fill text-sm-center nav-link" href="#"><a href="#">Aulas</a></li>
+                                <li class="flex-sm-fill text-sm-center nav-link " href="#"><a href="#">Dicas</a></li>
+                                <li class="flex-sm-fill text-sm-center nav-link " href="#"><a href="#">Instruções</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="col-3  navbar ">
+                            <nav class="navbar navbar-light" style="background-color: #312f2f;">
+                                <div class="container-fluid">
+                                    <form class="d-flex">
+                                        <input id="magico" class="form-control me-2" type="search" placeholder="Pesquisar"
+                                            aria-label="Search">
+                                        <button id="houdini" class="btn btn-outline-success"
+                                            type="submit">
+                                            <i class="fas fa-search"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                            </nav>
+                        </div>
+                        <input type="checkbox" id="menutoggle">
+                        <label for="menutoggle" class="menu-icon">
+                            <i class="fa fa-bars"></i>
+                            <i class="fa fa-times-circle"></i>
+                        </label>
+                        <ul2 class="menu">
+                            <li><a href="#">Início</a></li>
+                            <li><a href="#">Sobre nós</a></li>
+                            <li><a href="#">Aulas</a></li>
+                            <li><a href="#">dicas</a></li>
+                            <li><a href="#">Instruções</a></li>
+                        </ul2>
+                        
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
